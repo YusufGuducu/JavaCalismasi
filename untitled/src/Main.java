@@ -1,7 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
         int yas;
         yas = 25;
         String isim ;
@@ -28,6 +30,48 @@ public class Main {
         }
 
         //System.out.println("X ve Y toplamı =" + (x+y)); Çalışmaz çünkü y Garbage Collection alanı içindedir//
+
+        //BASİT HESAPLAMALAR
+
+        float a = 10;
+        float b = 4;
+        float sum = (a+b);
+        float dif=(a-b);
+        float div =(a/b);
+        float mod =(a%b);
+        System.out.println("a ve b nin toplamı "+ sum);
+        System.out.println("a ve b nin farkı "+ dif);
+        System.out.println("a nın b ye bölümü "+div);
+        System.out.println("a nın b ye bölümünden kalan "+mod);
+
+
+        //ÜCGEN ÖDEVİ
+
+        float taban;
+        float yukseklik;
+        System.out.println("Üçgenin Taban Uzunluğunu Giriniz;");
+        taban = input.nextInt();
+        System.out.println("Üçgenin Yüksekliğini Giriniz;");
+        yukseklik = input.nextInt();
+        float ucgenalani=((taban*yukseklik)/2);
+        if (taban>=0 && yukseklik>=0)
+            System.out.println("Girmiş olduğunuz taban ve yükseklikteki üçgenin alanı;"+(ucgenalani));
+        else
+            System.out.println("Lütfen Geçerli Sayı Giriniz !");
+
+        //Kullanıcı Giris Ekranı
+
+        String kullaniciAdi = "Yusuf";
+        String sifre = "12345";
+        System.out.println("Kullanıcı Adı Giriniz: ");
+        String girilenKullaniciAdi = input.nextLine();
+        System.out.println("Şifrenizi Giriniz: ");
+        String girilenSifre = input.nextLine();
+
+        if (girilenKullaniciAdi.equals(kullaniciAdi) && girilenSifre.equals(sifre))
+            System.out.println("Giriş Başarılı Hoşgeldiniz "+kullaniciAdi);
+        else
+            System.out.println("Kullanıcı Adı veya Şifrenizi Kontrol Ediniz !");
 
     }
 }
