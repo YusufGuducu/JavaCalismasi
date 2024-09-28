@@ -108,5 +108,111 @@ public class Main {
 //        int test = (numberLogInt+1);
 //        System.out.println("sonuc : "+test);
 
+        // IF ELSE AND SWITCH CASE
+
+//        int age = 15;
+//        if (age>=18) {
+//            System.out.println("yetişkin");
+//        } else if (age==15) {
+//            System.out.println("yasonbes");
+//        } else {
+//            System.out.println("cocuk");
+//        }
+
+
+//        String isik = "sari";
+//        switch (isik) {
+//            case "kirmizi":
+//                System.out.println("dur");
+//                break;
+//            case "sari":
+//                System.out.println("hazirlan");
+//                break;
+//            case "yesil":
+//                System.out.println("geç");
+//                break;
+//        }
+
+        // IF ELSE HOME WORK
+
+        //Sınav Notu Hesaplayıcı
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Lütfen notunuzu giriniz: ");
+//        int not = input.nextInt();
+//        if (not>=50){
+//            System.out.println("Başarılı");
+//        } else {
+//            System.out.println("Başarısız");
+//        }
+
+        // DÖRT İSLEM HESAPLAYICI
+//
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Lütfen İlk Sayıyı Giriniz");
+//        double sayi1 = input.nextDouble();
+//        System.out.println("Lütfen İkinci Sayıyı Giriniz");
+//        double sayi2 = input.nextDouble();
+//
+//        System.out.println("İşlem Seçiniz : + - / *");
+//        String islem = input.next();
+//
+//        if (islem.equals("+")) {
+//            System.out.println("Sonuc = " + (sayi1 + sayi2));
+//        } else if (islem.equals("-")) {
+//            System.out.println("Sonuc = " + (sayi1 - sayi2));
+//        } else if (islem.equals("/")) {
+//            System.out.println("Sonuc = " + (sayi1 / sayi2));
+//        } else {
+//            System.out.println("Hata");
+//        }
+
+        // HAFTANIN GÜNLERİ
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Lütfen 1 ile 7 arasında bir sayı giriniz:");
+//        String logNumber = input.next();
+//
+//        switch (logNumber){
+//            case "1":
+//                System.out.println("Pazartesi");
+//                break;
+//            case "2":
+//                System.out.println("Salı");
+//                break;
+//            case "3":
+//                System.out.println("Çarşamba");
+//                break;
+//            case "4":
+//                System.out.println("Perşembe");
+//                break;
+//            case "5":
+//                System.out.println("Cuma");
+//                break;
+//            case "6":
+//                System.out.println("Cumartesi");
+//                break;
+//            case "7":
+//                System.out.println("Pazar");
+//                break;
+//            default:
+//                System.out.println("Hatalı Giriş Yaptınız");
+//        }
+        // ÜRÜN İNDİRİM HESAPLAYICI
+
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Lütfen Sepet Tutarını Giriniz :");
+//        double sepetTutar = input.nextDouble();
+//        System.out.println("Sepete Yüzde Kaç İndirim Uygulanacak Giriniz :");
+//        double indirimTutar = input.nextDouble();
+//
+//        if (sepetTutar<1500){
+//            System.out.println("Sepet Tutarı Minimum 1500 TL olmalıdır");
+//        } else if (indirimTutar>70) {
+//            System.out.println("Maksimum %70 İndirim Yapılmaktadır");
+//        } else if (sepetTutar>=1500 && indirimTutar<70) {
+//            System.out.println("Sepetiniz : "+ ((sepetTutar*indirimTutar)/100));
+//        }
     }
 }
