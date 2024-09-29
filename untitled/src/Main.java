@@ -214,5 +214,63 @@ public class Main {
 //        } else if (sepetTutar>=1500 && indirimTutar<70) {
 //            System.out.println("Sepetiniz : "+ ((sepetTutar*indirimTutar)/100));
 //        }
+
+        //DÖNGÜLER LOOPS
+
+        //while döngüsü
+
+//        int sayac = 0;
+//        while (sayac<=5) {
+//            System.out.println("While Sayacı : "+sayac);
+//            sayac++;
+//        }
+
+        //Do-while döngüsü
+
+//        int sayacDoWhile = 0;
+//        do {
+//            System.out.println("Do-while sayacı : " +sayacDoWhile);
+//            sayacDoWhile++;
+//        } while (sayacDoWhile<5);
+
+        // For Döngüsü
+
+//        for (int i=0; i <5 ; i++) {
+//            System.out.println("for döngüsü sayac : "+i);
+//        }
+
+        //Foreach Döngüsü
+
+//        int[] numbers={1,2,3,4,5,52};
+//        for (int num : numbers) {
+//            System.out.println("Foreach döngüsü : "+num);
+//        }
+
+        // LOOPS HOMEWORK
+
+//        Scanner scanner = new Scanner(System.in);
+//        String devamMi;
+//
+//        do {
+//            // Kullanıcıdan bir tam sayı al
+//            System.out.print("Çarpım tablosu için bir sayı girin: ");
+//            int sayi = scanner.nextInt();
+//
+//            // Çarpım tablosunu oluştur ve ekrana yazdır
+//            for (int i = 1; i <= sayi; i++) {
+//                for (int j = 1; j <= sayi; j++) {
+//                    System.out.print(i * j +"\t");  // Çarpım işlemi ve düzgün formatlama
+//                }
+//                System.out.println();  // Bir sonraki satıra geç
+//            }
+//
+//            // Kullanıcıya devam etmek isteyip istemediğini sor
+//            System.out.print("Başka bir çarpım tablosu oluşturmak ister misiniz? (evet/hayır): ");
+//            devamMi = scanner.next();
+//        } while (devamMi.equals("evet"));  // Eğer kullanıcı "evet" derse döngü devam eder
+//
+//        System.out.println("Program sonlandırıldı.");
+//        scanner.close();
+
     }
 }
