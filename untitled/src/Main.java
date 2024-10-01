@@ -147,7 +147,7 @@ public class Main {
 //        }
 
         // DÖRT İSLEM HESAPLAYICI
-//
+
 //        Scanner input = new Scanner(System.in);
 //
 //        System.out.println("Lütfen İlk Sayıyı Giriniz");
@@ -164,12 +164,14 @@ public class Main {
 //            System.out.println("Sonuc = " + (sayi1 - sayi2));
 //        } else if (islem.equals("/")) {
 //            System.out.println("Sonuc = " + (sayi1 / sayi2));
+//        } else if (islem.equals("*")) {
+//            System.out.println("Sonuc = " + (sayi1 * sayi2));
 //        } else {
 //            System.out.println("Hata");
 //        }
 
         // HAFTANIN GÜNLERİ
-//
+
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("Lütfen 1 ile 7 arasında bir sayı giriniz:");
 //        String logNumber = input.next();
