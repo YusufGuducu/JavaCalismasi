@@ -274,5 +274,147 @@ public class Main {
 //        System.out.println("Program sonlandırıldı.");
 //        scanner.close();
 
+        // LISTELER KOLEKSİYONU
+
+//        List<String> isimler = new ArrayList<>();
+//        isimler.add("ali");
+//        isimler.add("mervem");
+//        isimler.add("yusuf");
+//        isimler.remove("ali");
+//        isimler.remove(1);
+//        System.out.println("İsimler Listesi ;");
+//        for (String isim : isimler) {
+//            System.out.println(isim);
+//        }
+
+        //SET KOLEKSİYONU (KÜMELER)
+
+//        Set<Integer> sayilar = new HashSet<>();
+//        sayilar.add(10);
+//        sayilar.add(20);
+//        sayilar.add(50);
+//
+//        System.out.println("Sayılar Kümesi");
+//        for (int sayi : sayilar) {
+//            System.out.println(sayi);
+//        }
+
+        // MAP KOLEKSİYONU
+
+//        Map<String, String> ulkeler = new HashMap<>();
+//        ulkeler.put("TR", "Türkiye");
+//        ulkeler.put("DE", "Almanya");
+//        ulkeler.put("US", "Amerika");
+//
+//        System.out.println("Ülkeler :");
+//        for (Map.Entry<String, String> entry : ulkeler.entrySet()) {
+//            System.out.println(entry.getKey() + "->" + entry.getValue());
+//        }
+
+        // TELEFON REHBERİ ÖRNEĞİ
+
+//        Map<String, String> rehber = new HashMap<>();
+//        rehber.put("Ahmet","0531");
+//        rehber.put("Mehmet","0532");
+//        rehber.put("Zeki","0533");
+//        rehber.put("Kadir","0534");
+//
+//        String arananIsim = "Mehmet";
+//        if (rehber.containsKey(arananIsim)) {
+//            String telefonNumarasi = rehber.get(arananIsim);
+//            System.out.println(arananIsim + " adlı kişinin numarası: " +telefonNumarasi);
+//        } else {
+//            System.out.println(arananIsim + "adlı kişi rehberde bulunamadı.");
+//        }
+
+        //SEPET ORNEGİ
+
+//        List<String> sepet = new ArrayList<>();
+//        sepet.add("Elma");
+//        sepet.add("Süt");
+//        sepet.add("Ekmek");
+//
+//        System.out.println("Sepetteki Ürünler :");
+//        for (String urun : sepet) {
+//            System.out.println(urun);
+//        }
+
+
+        // MUSTERİ VERİ TABANİ
+
+//        List<String> customers = new ArrayList<>();
+//        customers.add("Jhon");
+//        customers.add("Frank");
+//        customers.add("Charlie");
+//
+//        System.out.println("Customers ;");
+//        for (String customerList : customers) {
+//            System.out.println(customerList);
+//        }
+
+        // Class Score Calculator
+
+//        List<Integer> scoreList = new ArrayList<>();
+//        scoreList.add(50);
+//        scoreList.add(80);
+//        scoreList.add(75);
+//        scoreList.add(40);
+//        scoreList.add(24);
+//
+//        System.out.println("Score List;");
+//        System.out.println(scoreList);
+//
+//        int sum =0;
+//
+//        for(int num : scoreList) {
+//            sum = sum + num ;
+//        }
+//        System.out.println("toplam : "+ sum);
+//        System.out.println("ortalama : "+ (sum/scoreList.size()));
+
+        // Otel Rezerversyonu
+
+//        Scanner input = new Scanner(System.in);
+//
+//        Map<String, String> odalar = new HashMap<>();
+//        odalar.put("Oda 1", "Dolu");
+//        odalar.put("Oda 2", "Dolu");
+//        odalar.put("Oda 3", "Boş");
+//        odalar.put("Oda 4", "Dolu");
+//        odalar.put("Oda 5", "Boş");
+//
+//        System.out.println("Lütfen Bir Oda Seçiniz");
+//        String secilenOda = input.nextLine();
+//        System.out.println(secilenOda);
+//
+//        if (odalar.containsKey(secilenOda)) {
+//            String musaitlik = odalar.get(secilenOda);
+//            System.out.println(secilenOda + " Durumu "+ musaitlik);
+//        } else {
+//            System.out.println("Böyle bir oda bulunmamaktadır");
+//        }
+
+        // Sözlük Sistemi
+//
+//        Scanner input = new Scanner(System.in);
+//
+//        Map<String, String> kelimeler = new HashMap<>();
+//        kelimeler.put("selam", "hi");
+//        kelimeler.put("merhaba", "hello");
+//        kelimeler.put("ben", "I");
+//        kelimeler.put("benim", "mine");
+//        kelimeler.put("sen", "you");
+//        kelimeler.put("gel", "come");
+//
+//        System.out.println("Bir Kelime giriniz");
+//        String girilenKelime = input.next();
+//
+//        if (kelimeler.containsKey(girilenKelime)) {
+//            String ceviri = kelimeler.get(girilenKelime);
+//            System.out.println(girilenKelime+" means "+ceviri);
+//        } else {
+//            System.out.println("Girdiğiniz kelimenin henüz bir çevirisi yok");
+//        }
+
     }
 }
